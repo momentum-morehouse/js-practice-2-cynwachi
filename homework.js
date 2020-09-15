@@ -17,6 +17,18 @@ function remove(nameSet, name) {
 // 3. Create a function called "sum" that takes an array of numbers and
 // returns the sum of those numbers.
 
+function sum(numArray) {
+    // want to sum the numbers in an array 
+    let sumOfArray = 0 
+    if (numArray.length === 1 ){
+        sumOfArray = numArray[0]
+    } 
+    else if (numArray.length > 1) {
+        sumOfArray = 
+    }
+ return sumOfArray 
+}
+
 
 
 // 4. Create a function called "average" that takes an array of numbers
